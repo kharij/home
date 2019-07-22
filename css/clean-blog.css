@@ -10,6 +10,9 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
 }
 
+body, html {
+  height: 100%; }
+
 p {
   line-height: 1.5;
   margin: 30px 0;
@@ -29,6 +32,10 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+{
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
 a {
   color: #212529;
   -webkit-transition: all 0.2s;
@@ -183,6 +190,9 @@ header.masthead {
   background-size: cover;
 }
 
+#portfolio .container-fluid {
+  max-width: 1920px;
+  
 header.masthead .overlay {
   position: absolute;
   top: 0;
