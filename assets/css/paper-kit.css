@@ -25,25 +25,12 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-#webcoderskull{
-    position: absolute;
-    left: 0;
-    top: 50%;
-    padding: 0 20px;
-    width: 100%;
-    text-align: center;
+.emulator-ppsspp {
+	color: rgba(174,220,232,1);
 }
 
-canvas{
-    height:100vh;
-    background-color:#16a085;
-}
-#webcoderskull h1{
-  letter-spacing: 5px;
-  font-size: 5rem;
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
+.emulator-citra {
+	 color: rgba(255,214,7,1);
 }
 /*
 
@@ -5976,7 +5963,7 @@ License - nucleoapp.com/license/
 
 .card {
   border-radius: 12px;
-  box-shadow: 0 6px 20px 0px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 20px 0px rgba(0, 0, 0, 0.3);
   background-color: #FFFFFF;
   color: #333333;
   margin-bottom: 20px;
@@ -6856,6 +6843,27 @@ License - nucleoapp.com/license/
   color: rgba(255, 255, 255, 0.5);
 }
 
+.category-logo {
+  position: absolute;
+  text-align: center;
+  top: 25vh;
+  margin-top: -60px;
+  padding: 0 15px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+}
+
+.category-logo .category-logo-sub {
+	font-size: 1em;
+}
+
+.category-logo .creative-tim-logo {
+  max-width: 140px;
+  top: -2px;
+  left: 3px;
+  position: relative;
+}
 .category-absolute .creative-tim-logo {
   max-width: 140px;
   top: -2px;
